@@ -1,0 +1,5 @@
+out
+build/distributions/
+*.jar
+*.tar
+.idea
