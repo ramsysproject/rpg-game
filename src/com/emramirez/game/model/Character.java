@@ -2,6 +2,8 @@ package com.emramirez.game.model;
 
 public abstract class Character {
 
+    // Applying strategy pattern, encapsulating changing behavior and making it interchangeable at runtime
+    // Programming to an interface
     protected WeaponBehavior weaponBehavior;
 
     public abstract void fight();
